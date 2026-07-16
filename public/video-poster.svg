@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#291e19"/>
+      <stop offset="0.55" stop-color="#6f2e22"/>
+      <stop offset="1" stop-color="#b84a35"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff3df" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#cf9272" stop-opacity=".15"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="65"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1240" cy="120" r="290" fill="#efac7d" opacity=".22" filter="url(#blur)"/>
+  <rect x="870" y="90" width="520" height="650" rx="260" fill="#1b1715" opacity=".78"/>
+  <rect x="930" y="150" width="400" height="535" rx="200" fill="url(#light)"/>
+  <rect x="1060" y="540" width="360" height="22" rx="11" fill="#241916"/>
+  <rect x="1100" y="560" width="18" height="175" fill="#241916"/>
+  <rect x="1360" y="560" width="18" height="175" fill="#241916"/>
+  <path d="M1160 540c12-90 70-130 114-168-16 95-40 152-114 168Z" fill="#c57d51"/>
+  <path d="M1210 540c-7-110-34-174-78-226 92 50 124 127 78 226Z" fill="#dec2a1"/>
+  <text x="116" y="165" fill="#e2a783" font-size="26" font-family="Arial, sans-serif" letter-spacing="8">YIHUI DECORATION</text>
+  <text x="110" y="720" fill="#fff9f0" font-size="72" font-family="Microsoft YaHei, sans-serif" font-weight="700">让美好空间，真实发生</text>
+  <text x="114" y="780" fill="#f6d9c5" font-size="28" font-family="Microsoft YaHei, sans-serif" letter-spacing="4">怒江毅辉装饰有限责任公司 · 品牌影像</text>
+</svg>

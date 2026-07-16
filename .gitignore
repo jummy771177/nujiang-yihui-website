@@ -1,0 +1,9 @@
+node_modules/
+.next/
+dist/
+dist-static/
+out/
+*.log
+.DS_Store
+work/
+outputs/

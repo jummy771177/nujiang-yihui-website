@@ -1,0 +1,17 @@
+{
+  "name": "nujiang-yihui-decoration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/prepare-sites.mjs",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "15.5.10",
+    "react": "19.1.5",
+    "react-dom": "19.1.5"
+  }
+}
