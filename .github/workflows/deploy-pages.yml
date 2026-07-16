@@ -39,7 +39,7 @@ jobs:
           enablement: true
 
       - name: Build website
-        run: npm run build
+        run: npx next build
         env:
           GITHUB_PAGES: "true"
 
