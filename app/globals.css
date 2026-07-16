@@ -108,6 +108,23 @@ a {
   font-weight: 900;
 }
 
+.brand-logo {
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 auto;
+  background: white;
+}
+
+.brand-logo img {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 118px;
+  max-width: none;
+  height: auto;
+  transform: translateX(-50%);
+}
+
 .brand-text {
   display: flex;
   flex-direction: column;

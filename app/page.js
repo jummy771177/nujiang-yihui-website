@@ -138,7 +138,7 @@ const contacts = [
     label: "办公地址",
     value: "云南省怒江傈僳族自治州泸水市六库街道小沙坝536号",
   },
-  { icon: Clock3, label: "服务时间", value: "待完善" },
+  { icon: Clock3, label: "服务时间", value: "每天 09:00—18:00" },
 ];
 
 export default function Home() {
@@ -199,7 +199,9 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="怒江毅辉建筑装饰首页">
-          <span className="brand-mark">毅</span>
+          <span className="brand-mark brand-logo" aria-hidden="true">
+            <img src="./yihui-company-logo.png" alt="" />
+          </span>
           <span className="brand-text">
             <strong>怒江毅辉建筑装饰</strong>
             <small>YIHUI DECORATION</small>
@@ -498,7 +500,9 @@ export default function Home() {
       <footer>
         <div className="footer-main">
           <a className="brand footer-brand" href="#top">
-            <span className="brand-mark">毅</span>
+            <span className="brand-mark brand-logo" aria-hidden="true">
+              <img src="./yihui-company-logo.png" alt="" />
+            </span>
             <span className="brand-text"><strong>怒江毅辉建筑装饰</strong><small>YIHUI DECORATION</small></span>
           </a>
           <p>勤劳务实 · 创新进取 · 勇于担当 · 回报社会</p>
