@@ -80,46 +80,32 @@ const culture = [
 
 const history = [
   {
-    year: "2021",
-    title: "初心启程",
-    tag: "方向确立",
-    desc: "确立从设计到施工的一体化服务方向，聚集第一批并肩前行的项目伙伴。",
-    metric: "从热爱出发",
+    year: "2016",
+    title: "公司成立",
+    tag: "初心启程",
+    desc: "2016年12月28日，怒江毅辉建筑装饰有限责任公司正式成立，扎根怒江，开启企业发展历程。",
+    metric: "2016.12.28",
   },
   {
-    year: "2022",
-    title: "扎根怒江",
-    tag: "本地深耕",
-    desc: "持续完善住宅与商业空间服务流程，在一次次现场实践中积累经验。",
-    metric: "让服务落地",
-  },
-  {
-    year: "2023",
-    title: "团队成长",
-    tag: "协同升级",
-    desc: "推动设计、工程与项目管理协同，逐步建立清晰、可靠的施工标准。",
-    metric: "专业更进一步",
+    year: "2018",
+    title: "事业启航",
+    tag: "建筑装饰",
+    desc: "2018年，公司正式开始建筑装饰事业，以务实行动积累经验，持续提升建筑装饰与装修服务能力。",
+    metric: "建筑装饰事业正式起步",
   },
   {
     year: "2024",
-    title: "服务升级",
-    tag: "流程透明",
-    desc: "强化可视化沟通和节点验收，让项目进度、质量与责任更加清晰。",
-    metric: "过程看得见",
-  },
-  {
-    year: "2025",
-    title: "品牌焕新",
-    tag: "价值沉淀",
-    desc: "形成品质、效率与责任并重的品牌表达，以更完整的服务回应客户需求。",
-    metric: "信任在累积",
+    title: "公司升级",
+    tag: "发展升级",
+    desc: "2024年，公司完成升级，进一步强化企业管理、工程服务与专业能力，以更完整的服务回应客户需求。",
+    metric: "能力与服务同步升级",
   },
   {
     year: "2026",
-    title: "向新而行",
-    tag: "未来展开",
-    desc: "持续探索绿色材料与在地美学，让空间、生活与自然建立更好的连接。",
-    metric: "美好正发生",
+    title: "志向笃定",
+    tag: "为人民服务",
+    desc: "2026年，公司志向在建筑行业为人民服务，以责任担当做好每一项工程，用专业行动回报社会。",
+    metric: "以建筑服务人民",
   },
 ];
 
@@ -145,12 +131,12 @@ const notices = [
 ];
 
 const contacts = [
-  { icon: Phone, label: "联系电话", value: "待完善", action: "tel:" },
+  { icon: Phone, label: "联系电话", value: "0886-362447", action: "tel:" },
   { icon: Mail, label: "企业邮箱", value: "待完善", action: "mailto:" },
   {
     icon: MapPin,
     label: "办公地址",
-    value: "云南省怒江傈僳族自治州 · 详细地址待完善",
+    value: "云南省怒江傈僳族自治州泸水市六库街道小沙坝536号",
   },
   { icon: Clock3, label: "服务时间", value: "待完善" },
 ];
@@ -212,10 +198,10 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="怒江毅辉装饰首页">
+        <a className="brand" href="#top" aria-label="怒江毅辉建筑装饰首页">
           <span className="brand-mark">毅</span>
           <span className="brand-text">
-            <strong>怒江毅辉装饰</strong>
+            <strong>怒江毅辉建筑装饰</strong>
             <small>YIHUI DECORATION</small>
           </span>
         </a>
@@ -316,7 +302,7 @@ export default function Home() {
         <div className="intro-copy reveal">
           <Quote className="quote-icon" size={34} />
           <p>
-            怒江毅辉装饰有限责任公司立足怒江，专注于有温度的空间设计与扎实可靠的工程营造。我们相信，好的装饰不止于视觉焕新，更应回应生活、尊重使用，并经得住时间。
+            怒江毅辉建筑装饰有限责任公司，成立于2016年，位于云南省怒江傈僳族自治州，是一家以从事建筑装饰、装修和其他建筑业为主的企业。
           </p>
           <a href="#culture" className="text-link">了解企业文化 <ArrowRight size={17} /></a>
         </div>
@@ -362,7 +348,6 @@ export default function Home() {
             <h2>发展历程</h2>
           </div>
           <div className="history-intro">
-            <span className="sample-badge">示例内容</span>
             <p>时间见证选择，也记录每一次向前。点击年份，可直接跳转至对应发展节点。</p>
           </div>
         </div>
@@ -487,7 +472,7 @@ export default function Home() {
           <p className="eyebrow">CONTACT US</p>
           <h2>联系我们</h2>
           <p>每一个理想空间，都始于一次认真交流。欢迎与我们分享你的需求与想法。</p>
-          <span className="sample-badge">联系方式待完善</span>
+          <span className="sample-badge">欢迎来电咨询</span>
         </div>
         <div className="contact-grid">
           {contacts.map(({ icon: Icon, label, value, action }) => (
@@ -514,7 +499,7 @@ export default function Home() {
         <div className="footer-main">
           <a className="brand footer-brand" href="#top">
             <span className="brand-mark">毅</span>
-            <span className="brand-text"><strong>怒江毅辉装饰</strong><small>YIHUI DECORATION</small></span>
+            <span className="brand-text"><strong>怒江毅辉建筑装饰</strong><small>YIHUI DECORATION</small></span>
           </a>
           <p>勤劳务实 · 创新进取 · 勇于担当 · 回报社会</p>
           <div className="footer-links">
@@ -526,7 +511,7 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 怒江毅辉装饰有限责任公司</span>
+          <span>© 2026 怒江毅辉建筑装饰有限责任公司</span>
           <span>网站备案信息待完善</span>
         </div>
       </footer>

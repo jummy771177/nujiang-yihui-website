@@ -762,7 +762,7 @@ a {
   z-index: 15;
   top: 81px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 80px 0 45px;
   padding: 14px 0 8px;
   background: rgba(248, 244, 238, 0.92);
@@ -1241,7 +1241,7 @@ footer {
   .section-lead { width: 100%; }
   .culture-quote { grid-template-columns: 1fr; gap: 13px; }
   .history-header { grid-template-columns: 1fr; gap: 25px; }
-  .year-nav { top: 81px; margin-top: 55px; overflow-x: auto; grid-template-columns: repeat(6, minmax(90px, 1fr)); }
+  .year-nav { top: 81px; margin-top: 55px; overflow-x: auto; grid-template-columns: repeat(4, minmax(90px, 1fr)); }
   .year-line { right: 45px; left: 45px; min-width: 480px; }
   .history-list::before { left: 29px; }
   .history-node { grid-template-columns: 60px 1fr 29%; min-height: 250px; }
